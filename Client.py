@@ -11,4 +11,5 @@ def post(function, json):
 
 print(post('login', {'universe': 'UNI', 'username': 'USER', 'password': 'PASSWORD'}))
 print(get('attacked'))
+print(post('supply', {'id': 12345}))
 print(get('logout'))
